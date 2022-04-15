@@ -2,9 +2,12 @@
   "name": "livraria-api",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Lucas Freitas",
   "private": true,
   "license": "UNLICENSED",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "postinstall": "npm run prestart:prod",
     "prebuild": "rimraf dist",
