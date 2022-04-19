@@ -16,7 +16,6 @@ import { LivrosModule } from './livros/books.module';
       useFactory: (appConfigService: ConfigurationService) => {
         const options: MongooseModuleOptions = {
           uri: appConfigService.connectionString,
-          useNewUrlParser: true,
           useUnifiedTopology: true,
         };
         return options;
